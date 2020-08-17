@@ -9,7 +9,7 @@
 const path = require('path');
 
 exports.createPages = ({actions, graphql}) => {
-    const { createPage } = actions.createPage
+    const createPage = actions.createPage
 
     const postTemplate = path.resolve('src/templates/blog-post.js')
 
